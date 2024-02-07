@@ -30,8 +30,8 @@ export default {
 </script>
 
 <template>
-    <v-navigation-drawer v-model="drawer" app color="white" width="250" style="padding: 10px">
-        <div style="padding: 20px">
+    <v-navigation-drawer v-model="drawer" app color="white" width="290" style="padding: 10px">
+        <div style="padding: 20px; width: 100%; display: flex;justify-content: center;">
           <v-img src="@/assets/logo.png"/>
         </div>
         <v-list flat>
